@@ -35,8 +35,8 @@ descktop; 992px até 1200px
     
    float: left;
    width: 30%;
-   height: 100%;
-
+   height: 70%;
+   
   }
 
   #login > #formulario {
@@ -46,30 +46,42 @@ descktop; 992px até 1200px
 
 }
 
-@media scren and (min-width: 992px) {
-  body{
-    background-image: linear-gradient(to top, var(--cor01) , var(--cor02));
+@media screen and (min-width: 992px) {
+  body, html{
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);;
+    
+    
 
   }
 
   #login {
-    width:  990px;
+    width:  950px;
   }
 
-  #image{
-    float: left;
+  #login > #image{
+    
+    float: right;
     width: 50%;
     height: 100%;
+    
   }
 
   #login > #formulario {
    
-    float: right;
+    float: left;
     width: 50%;
    
   }
 
-
+  #formulario > h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   
+  #formulario > p {
+     font-size: 1.2em;
+  }
 }
 
 

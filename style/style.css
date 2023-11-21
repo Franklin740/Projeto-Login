@@ -26,9 +26,9 @@
 }
 
 body, html {
-  background-color: RoyalBlue  ;
-  height: 100vh;
-  width: 100vh;
+  background-image: url(../image/plano\ de\ fundo.jpg) ;
+  height: 100vw;
+  width: 100vw;
 } 
 
 main{
@@ -64,11 +64,11 @@ main{
   /*background-color: var(--cor02);*/
   background-image: url(../image/Balao.jpg) ;
   background-size: cover;
-  background-position: left bottom;
+  background-position: center center;
   height: 200px;
   display: block; 
-  /*border-top-right-radius: 20px ;
-  border-top-left-radius: 20px;*/
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px;
   
 
 }
@@ -76,5 +76,37 @@ main{
 #login > #formulario {
   padding: 10px;
 
+
+}
+
+#formulario > h1 {
+ text-align: center;
+ margin-bottom: 10px;
+}
+
+#formulario > p {
+  font-size: 0.8em;
+}
+
+.login {
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+}
+
+.senha {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+}
+
+.mail {
+
+  width: 40px;
+  height: 40px;
+  vertical-align: bottom;
+  
+  
 
 }
