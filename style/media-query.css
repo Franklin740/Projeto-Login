@@ -19,7 +19,9 @@ descktop; 992px até 1200px
 ////////////////////////////////////
 */ 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width:
+ 992px){ /* CONFIGURAÇAO PARA TABLET -----------
+  /////////////////////////////////////////////*/ 
  
   body{
     background-image: linear-gradient(to top, var(--cor01) , var(--cor02));
@@ -28,6 +30,7 @@ descktop; 992px até 1200px
   #login {
    
     width: 80vw;
+   
    
   }
 
@@ -44,9 +47,24 @@ descktop; 992px até 1200px
     width: 70%;
   }
 
+  #formulario > h1 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: 'login';
+    font-weight: normal;
+    font-size: 30;
+   }
+
 }
 
 @media screen and (min-width: 992px) {
+  /*
+  ////////////////////////////
+  -----------------------------
+  Configuraçoes para desktop
+  -----------------------------
+  /////////////////////////////*/
+
   body, html{
     background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);;
     
@@ -56,6 +74,7 @@ descktop; 992px até 1200px
 
   #login {
     width:  950px;
+    height: 530px;
   }
 
   #login > #image{
